@@ -44,6 +44,10 @@ table {
  display: block;
 }
 
+header {
+  display: inline;
+}
+
 nav {
   position: sticky;
   top: 0;
