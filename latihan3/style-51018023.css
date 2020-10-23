@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+body {
+ color: #fff;
+ font-family: 'Dosis', sans-serif;
+}
+
+a:link, a:visited {
+ color: #fff;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #665963;
+ font-weight: bold;
+}
+
+.heading {
+ border-left: 4px solid;
+ padding: 15px;
+ color: #838383;
+}
+
+.link {
+ list-style-type: none;
+}
+
+.menu {
+ width: 150px;
+ background-color: #ad9d9d;
+ margin: 5px;
+ padding: 5px;
+ text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.gambar-resep {
+ width: 350px;
+ border-radius: 8px;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+}
+
+header {
+  display: inline;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  text-align: center;
+}
+
+nav ul, footer {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #838383;
+}
+
+nav li, footer p {
+  display: inline;
+}
+
+nav li a, footer p a {
+  display: inline-block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover, footer p a:hover {
+  background-color: #665963;
+  color: white;
+}
+
+.box {
+  background-color: #ad9d9d;
+  padding: 10px;
+  margin: 12px;
+  border-radius: 8px;
+  background-blend-mode: lighten;
+}
+
+.box li a {
+  color: #fccbcb;
+}
